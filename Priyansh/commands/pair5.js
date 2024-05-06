@@ -1,4 +1,4 @@
-
+❤️
 module.exports.config = {
   name: "pair5",
   version: "1.0.0",
