@@ -1,5 +1,7 @@
+const originalCredit = "SHANKAR-PROJECT"; // Original credit
+
 module.exports.config = {
-  name: "pair",
+  name: "pairv9",
   version: "1.0.0", 
   hasPermssion: 0,
   credits: originalCredit,
@@ -24,6 +26,11 @@ module.exports.run = async function({ api, event, Threads, Users }) {
   var arraytag = [];
   arraytag.push({id: event.senderID, tag: namee});
   arraytag.push({id: id, tag: name});
+
+  // Check if credit has been modified
+  if (module.exports.config.credits !== originalCredit) {
+    return api.sendMessage("DON'T CHANGE CREDIT! SHANKAR -PROJECT FUCK YOUR MOTHER AND SISTER", event.threadID, event.messageID);
+  }
 
   // Array of Imgur gif links
   const imgurGifs = [
