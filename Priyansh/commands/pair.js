@@ -1,7 +1,7 @@
 const originalCredit = "SHANKAR-PROJECT"; // Original credit
 
 module.exports.config = {
-  name: "pairv9",
+  name: "pair",
   version: "1.0.0", 
   hasPermssion: 0,
   credits: originalCredit,
