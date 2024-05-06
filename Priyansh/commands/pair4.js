@@ -1,4 +1,4 @@
-module.exports.config = {
+❤️module.exports.config = {
 	name: "pair4",
 	version: "1.0.1",
 	hasPermssion: 0,
